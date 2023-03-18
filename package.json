@@ -9,7 +9,7 @@
     "lint": "vue-cli-service lint",
     "start": "vue-cli-service serve",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "test": "vue-cli-service test:unit"
   },
   "dependencies": {
